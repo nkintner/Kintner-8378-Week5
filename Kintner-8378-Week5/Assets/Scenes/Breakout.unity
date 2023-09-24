@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (9)
@@ -185,8 +189,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c1ce233b80fcb049adda050327985f2, type: 2}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -286,6 +294,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (7)
@@ -2463,6 +2475,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (8)
@@ -2905,6 +2921,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (11)
@@ -3108,6 +3128,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (1)
@@ -3440,7 +3464,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"brick","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"lives","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &837824563
 Transform:
@@ -3469,6 +3495,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (10)
@@ -3724,6 +3754,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (4)
@@ -3799,6 +3833,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (5)
@@ -3874,6 +3912,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (6)
@@ -3924,8 +3966,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c1ce233b80fcb049adda050327985f2, type: 2}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -4096,6 +4142,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (2)
@@ -4207,6 +4257,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (3)
@@ -4257,8 +4311,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c1ce233b80fcb049adda050327985f2, type: 2}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -4286,6 +4344,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick (12)
@@ -4336,8 +4398,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c1ce233b80fcb049adda050327985f2, type: 2}
     - target: {fileID: 8205648146475544938, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -4401,6 +4467,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 7f33dbf8a09911e42bd140d398c0c6d5, type: 2}
+    - target: {fileID: 2915644561838957594, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4248367214239183426, guid: 196a10e7965f93a45b80d7126224d37f, type: 3}
       propertyPath: m_Name
       value: Brick
