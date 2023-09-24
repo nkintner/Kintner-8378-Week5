@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Brick
   - des
+  - out
   layers:
   - Default
   - TransparentFX
